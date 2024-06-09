@@ -9,24 +9,24 @@ Este proyecto configura un entorno Jupyter Notebook con bibliotecas orientadas a
 
 ## Instalación
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/enrique_nlp_project.git
-   cd enrique_nlp_project
-    ```
+Clona este repositorio:
+
+````bash
+git clone https://github.com/EnriqueMF/nlp_enrique.git
+cd nlp_project
+ ```
 
 ## Construye y levanta los servicios:
 
 ```bash
 docker-compose up --build
-```
+````
 
 ## OPCION 1. Ejecutar Jupyter desde VSCODE
 
 1. Abre o crea un archivo .ipynb en tu proyecto. Crea, si no existe, la carpeta notebooks donde se crearán los .ipynb
 2. Haz clic en el nombre del kernel en la esquina superior derecha del notebook en VS Code.
 3. Selecciona Existing Jupyter Server... en la lista e introduce la URL del servidor Jupyter: http://127.0.0.1:8888.
-
 
 ## OPCION 2. Ejecutar Jupyter desde el navegador
 
