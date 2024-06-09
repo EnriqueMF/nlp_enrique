@@ -21,7 +21,14 @@ Este proyecto configura un entorno Jupyter Notebook con bibliotecas orientadas a
 docker-compose up --build
 ```
 
-### Accede a Jupyter Notebook en tu navegador:
+## OPCION 1. Ejecutar Jupyter desde VSCODE
+
+1. Abre o crea un archivo .ipynb en tu proyecto. Crea, si no existe, la carpeta notebooks donde se crearán los .ipynb
+2. Haz clic en el nombre del kernel en la esquina superior derecha del notebook en VS Code.
+3. Selecciona Existing Jupyter Server... en la lista e introduce la URL del servidor Jupyter: http://127.0.0.1:8888.
+
+
+## OPCION 2. Ejecutar Jupyter desde el navegador
 
 ```bash
 http://localhost:8888
