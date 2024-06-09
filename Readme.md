@@ -11,7 +11,7 @@ Este proyecto configura un entorno Jupyter Notebook con bibliotecas orientadas a
 
 Clona este repositorio:
 
-````bash
+```bash
 git clone https://github.com/EnriqueMF/nlp_enrique.git
 cd nlp_project
  ```
@@ -20,7 +20,7 @@ cd nlp_project
 
 ```bash
 docker-compose up --build
-````
+```
 
 ## OPCION 1. Ejecutar Jupyter desde VSCODE
 
