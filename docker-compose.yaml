@@ -9,4 +9,4 @@ services:
       - ./notebooks:/home/jovyan/work
     environment:
       - JUPYTER_ENABLE_LAB=yes
-Jupyter: Specify Jupyter
+      

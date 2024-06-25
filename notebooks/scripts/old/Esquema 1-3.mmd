@@ -1,0 +1,17 @@
+graph TD
+    A[Inicio] --> B1[1. Preprocesamiento del Texto]
+    
+    B1 --> B1_1[1.1 Normalización]
+    B1_1 -->|Texto normalizado| B1_2[1.2 Tokenización]
+    B1_2 -->|Tokens| B1_3[1.3 Eliminación de Stop Words]
+    B1_3 -->|Tokens filtrados| B1_4[1.4 Lemmatización]
+    B1_4 -->|Lemmas| C[2. Detección de Errores]
+    
+    C --> C1[2.1 Análisis Gramatical]
+    C1 -->|Errores gramaticales| C2[2.2 Detección de Errores Ortográficos]
+    C2 -->|Errores ortográficos| D[3. Generación de Sugerencias de Corrección]
+    
+    D --> D1[3.1 Corrección Ortográfica]
+    D1 -->|Sugerencias ortográficas| D2[3.2 Corrección Gramatical]
+    D2 -->|Sugerencias gramaticales| D3[3.3 Contextualización y Desambiguación]
+    D3 -->|Sugerencias contextuales| E[Texto Corregido]

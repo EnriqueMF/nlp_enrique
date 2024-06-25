@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-learn
+nltk
+spacy
+beautifulsoup4
+num2words
+youtube-transcript-api
+language-tool-python
+pyspellchecker
+scikit-learn
+torch
+transformers
+openpyxl
+sentencepiece
+accelerate
