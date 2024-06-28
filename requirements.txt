@@ -17,3 +17,5 @@ accelerate
 tensorflow
 tensorflow_datasets
 matplotlib
+seaborn
+tf_keras
